@@ -1,0 +1,63 @@
+body,
+p {
+  margin: 0;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  width: min(400px, 100%);
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px 0 #000A;
+  position: relative;
+}
+
+
+.card__btn {
+  display: block;
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  aspect-ratio: 1;
+  font-size: 22px;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 #000a;
+  transition: box-shadow 200ms ease;
+  color: white;
+}
+
+.card__btn:active {
+  box-shadow: 0 0 0 0 #000a;
+  transition: box-shadow 200ms ease;
+}
+
+.dobleQuotation {
+  font-size: 80px;
+  height: 80px;
+}
+
+.quoteText__container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.quotePhrase{
+  padding-left: 10px;
+}
+
+.authorName {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: end;
+}
